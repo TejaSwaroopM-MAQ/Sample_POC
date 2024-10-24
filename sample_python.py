@@ -1,4 +1,4 @@
-# A calculator function to do some basic operations
+# A calculator function to do some basic operations like addition, subtraction, multiplication and division
 def calculator(operation, a, b):
     if operation == 'add':
         return a + b
