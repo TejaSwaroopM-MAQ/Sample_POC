@@ -1,0 +1,9 @@
+1. Verify that unit test notebooks are added as part of the PR for each notebook.
+2. Confirm that all mapping and procedure notebooks are checked in.
+3. Ensure the notebook contains relevant comments throughout.
+4. Check that the code is properly formatted, with all SQL keywords in uppercase (CAPS).
+5. Verify that there is no hardcoding in the code.
+6. All schemas should be declared as variables sourced from common variable notebooks.
+7. If common variables are used, ensure that the notebook includes a Run statement for the common variable notebook.
+8. Check that all the tables referenced in the notebook are available as part of the schema setup notebooks.
+9. Ensure that timestamp conversion is consistent on both sides of comparisons and that DATE_FORMAT is used appropriately.
